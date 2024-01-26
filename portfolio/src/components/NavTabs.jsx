@@ -25,7 +25,7 @@ function NavTabs() {
         </NavLink>
       </li>
       <li className="nav-item">
-        <a href="../utils/lavell-cv.pdf" download className="nav-link">
+        <a href="../utils/lavell-cv.pdf" download="cv.pdf" className="nav-link">
           Resume
         </a>
       </li>
