@@ -10,11 +10,6 @@ function NavTabs() {
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink to="/about" activeClassName="active" className="nav-link">
-          About
-        </NavLink>
-      </li>
-      <li className="nav-item">
         <NavLink to="/contact" activeClassName="active" className="nav-link">
           Contact
         </NavLink>
