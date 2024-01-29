@@ -1,42 +1,77 @@
 import React from "react";
+import profileIMG from "../../utils/me2.png";
 
 const Homepage = () => {
   return (
-    <div>
-      <section class="page-section" id="about">
-        <aside class="page-section-left">
-          <h3 class="sub-heading">About Me</h3>
-        </aside>
-        <article class="page-section-right">
-          <p class="about-txt">
-            Hi, I'm Lavell Francis, a self-taught software developer. I embarked
-            on my journey into the world of coding during the challenging times
-            of the COVID-19 pandemic. What started as a curiosity soon turned
-            into a passion, and now, I find immense joy in creating software and
-            solving complex problems. My journey into software development has
-            been marked by continuous learning and growth. I believe in the
-            power of technology to make a positive impact on the world, and I'm
-            dedicated to contributing my skills to that cause. Whether it's web
-            development, mobile apps, or any other exciting project, I'm always
-            up for the challenge. I particularly enjoy building projects that
-            relate to my life in some sort of way. Whether that be a website
-            that helps me check the conditions to go snowboarding, or a website
-            where I can read comics, I love creating digital solutions that
-            bring value to everyday experiences.
-          </p>
-          <br />
-          <p class="about-txt">
-            When I'm not coding, you can find me exploring new technologies,
-            reading tech blogs, or enjoying the outdoors. I'm a firm believer
-            that the best way to learn is by doing, and I'm constantly working
-            on new projects to enhance my skills. Thank you for visiting my
-            portfolio, and I hope you find inspiration in my journey. If you'd
-            like to collaborate or have any questions, feel free to reach out.
-            Let's make the digital world a better place, one code at a time.
-          </p>
-        </article>
-      </section>
-    </div>
+    <header className="py-5">
+      <div className="container px-5 pb-5">
+        <div className="row gx-5 align-items-center">
+          <div className="col-xxl-5">
+            {/* Header text content */}
+            <div className="text-center text-xxl-start">
+              <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
+                <div className="text-uppercase">
+                  Design &middot; Development &middot; Marketing
+                </div>
+              </div>
+              <div className="fs-3 fw-light text-muted">
+                Transform Your Business Future
+              </div>
+              <h1 className="display-3 fw-bolder mb-5">
+                <span className="text-gradient d-inline">
+                  Drive Online Growth with Confidence
+                </span>
+              </h1>
+              <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                <a
+                  className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                  href="resume.html"
+                >
+                  Resume
+                </a>
+                <a
+                  className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                  href="projects.html"
+                >
+                  Projects
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-xxl-7">
+            {/* Header profile picture */}
+            <div className="d-flex justify-content-center mt-5 mt-xxl-0">
+              <div className="profile bg-gradient-primary-to-secondary">
+                <img
+                  className="profile-img"
+                  src={profileIMG}
+                  alt="man sitting with hands rested on a table"
+                />
+                <div className="dots-1">
+                  {/* SVG Dots */}
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 191.6 1215.4"
+                    style={{ enableBackground: "new 0 0 191.6 1215.4" }}
+                    xmlSpace="preserve"
+                  >
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                      {/* SVG paths */}
+                    </g>
+                  </svg>
+                  {/* End of SVG Dots */}
+                </div>
+                {/* Other dots */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

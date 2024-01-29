@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import Header from "./components/Header/Header";
-import NavTabs from "./components/NavTabs";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Project";
 import Footer from "./components/Footer/Footer"; // Import Footer component
@@ -10,10 +9,8 @@ import Footer from "./components/Footer/Footer"; // Import Footer component
 function App() {
   return (
     <Router>
-      {/* Wrap all components in a parent element */}
       <div>
-        <NavTabs />
-        {/* Wrap Routes component and Footer component */}
+        <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Projects />} />

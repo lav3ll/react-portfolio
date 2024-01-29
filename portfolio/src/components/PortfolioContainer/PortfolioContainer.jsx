@@ -1,6 +1,6 @@
 import React from "react";
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
+import Header from "../Header/Header";
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -11,7 +11,7 @@ function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );
 }
