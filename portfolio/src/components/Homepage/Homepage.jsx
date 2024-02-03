@@ -12,7 +12,8 @@ const Homepage = () => {
             <div className="text-center text-xxl-start">
               <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
                 <div className="text-uppercase">
-                  Design &middot; Development &middot; Marketing
+                  Visual Craftsmanship &middot; Technical Mastery &middot;
+                  Client Satisfaction
                 </div>
               </div>
               <div className="fs-3 fw-light text-muted">
