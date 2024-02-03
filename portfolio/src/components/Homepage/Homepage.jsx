@@ -27,10 +27,12 @@ const Homepage = () => {
               <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                 <a
                   className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                  href="resume.html"
+                  href="../utils/lavell-cv.pdf"
+                  download="cv.pdf"
                 >
                   Resume
                 </a>
+
                 <a
                   className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
                   href="projects.html"
