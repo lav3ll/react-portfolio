@@ -5,7 +5,8 @@
     "title": "Movie Website",
     "github": "https://github.com/lav3ll/Movie-Website",
     "demo": "https://lav3ll-prime-movies.netlify.app/",
-    "language": "Vanilla JS"
+    "language": "Vanilla JS",
+    "alt": "landing page og a movie streaming service"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Manga Website",
     "github": "https://github.com/lav3ll/Manga-Website",
     "demo": "https://elite-scans.netlify.app/",
-    "language": "Vanilla JS"
+    "language": "Vanilla JS",
+    "alt": "image of a comic book reading website"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "title": "Ski Resort Website",
     "github": "https://github.com/lav3ll/ski-resort-weather",
     "demo": "https://ski-resort-forecast.netlify.app/",
-    "language": "React JS"
+    "language": "React JS",
+    "alt": "image of a ski resort weather checking site"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "title": "Banking",
     "github": "https://github.com/lav3ll/Banking",
     "demo": "https://credifyy.netlify.app/",
-    "language": "Vanilla JS"
+    "language": "Vanilla JS",
+    "alt": "image of a banking website"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "title": "CareerWay Commute",
     "github": "https://github.com/lav3ll/careerway-commute",
     "demo": "https://lav3ll.github.io/careerway-commute/",
-    "language": "Vanilla JS"
+    "language": "Vanilla JS",
+    "alt": "image of the landing page of a job search & commute website"
   },
   {
     "id": 6,
@@ -45,6 +50,7 @@
     "title": "E-Commerce Website",
     "github": "https://github.com/lav3ll/e-commerce",
     "demo": "https://github.com/lav3ll/e-commerce",
-    "language": "React JS"
+    "language": "React JS",
+    "alt": "image of the landing page of a clothing website"
   }
 ]

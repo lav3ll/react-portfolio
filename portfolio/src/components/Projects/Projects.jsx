@@ -22,6 +22,7 @@ const Projects = () => {
                 language={project.language}
                 github={project.github}
                 demo={project.demo}
+                alt={project.alt}
               />
             ))}
           </div>
