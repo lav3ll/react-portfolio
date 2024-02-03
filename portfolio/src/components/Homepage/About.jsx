@@ -30,12 +30,12 @@ const About = () => {
                   <i class="bi bi-twitter"></i>
                 </a>
                 <a
-                  class="text-gradient"
+                  className="text-gradient"
                   href="https://www.linkedin.com/in/lavell-francis/"
                 >
                   <BiLogoLinkedin />
                 </a>
-                <a class="text-gradient" href="https://github.com/lav3ll/">
+                <a className="text-gradient" href="https://github.com/lav3ll/">
                   <BiLogoGithub />
                 </a>
               </div>
