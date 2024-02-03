@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "../../utils/portfolio2.png",
+    "title": "Movie Website",
+    "github": "https://github.com/lav3ll/Movie-Website",
+    "demo": "https://lav3ll-prime-movies.netlify.app/",
+    "language": "Vanilla JS"
+  },
+  {
+    "id": 2,
+    "image": "../../utils/portfolio1.png",
+    "title": "Manga Website",
+    "github": "https://github.com/lav3ll/Manga-Website",
+    "demo": "https://elite-scans.netlify.app/",
+    "language": "Vanilla JS"
+  },
+  {
+    "id": 3,
+    "image": "../../utils/portfolio3.png",
+    "title": "Ski Resort Website",
+    "github": "https://github.com/lav3ll/ski-resort-weather",
+    "demo": "https://ski-resort-forecast.netlify.app/",
+    "language": "React JS"
+  },
+  {
+    "id": 4,
+    "image": "../../utils/portfolio4.png",
+    "title": "Banking",
+    "github": "https://github.com/lav3ll/Banking",
+    "demo": "https://credifyy.netlify.app/",
+    "language": "Vanilla JS"
+  },
+  {
+    "id": 5,
+    "image": "../../utils/portfolio6.png",
+    "title": "CareerWay Commute",
+    "github": "https://github.com/lav3ll/careerway-commute",
+    "demo": "https://lav3ll.github.io/careerway-commute/",
+    "language": "Vanilla JS"
+  },
+  {
+    "id": 6,
+    "image": "../../utils/portfolio5.png",
+    "title": "E-Commerce Website",
+    "github": "https://github.com/lav3ll/e-commerce",
+    "demo": "https://github.com/lav3ll/e-commerce",
+    "language": "React JS"
+  }
+]

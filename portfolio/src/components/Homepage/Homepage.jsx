@@ -1,5 +1,6 @@
 import React from "react";
-import profileIMG from "../../utils/me2.png";
+import profileIMG from "../../utils/me.png";
+import "./Homepage.css";
 
 const Homepage = () => {
   return (
@@ -40,6 +41,7 @@ const Homepage = () => {
           </div>
           <div className="col-xxl-7">
             {/* Header profile picture */}
+
             <div className="d-flex justify-content-center mt-5 mt-xxl-0">
               <div className="profile bg-gradient-primary-to-secondary">
                 <img
