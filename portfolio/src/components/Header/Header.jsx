@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "./header.css";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);

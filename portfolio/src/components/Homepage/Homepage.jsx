@@ -1,5 +1,6 @@
 import React from "react";
 import profileIMG from "../../utils/me.png";
+import About from "./About";
 import "./Homepage.css";
 
 const Homepage = () => {
@@ -76,6 +77,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <About />
     </header>
   );
 };
