@@ -23,19 +23,23 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5 className="fw-bolder">Get In Touch</h5>
-      <p className="lead fw-normal text-muted mb-0">Contact Me</p>
+      <div className="text-center mb-5">
+        <h1 className="display-5 fw-bolder mb-0">
+          <span className="text-gradient d-inline">Contact Me</span>
+        </h1>
+      </div>
       <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h5>Lavell.francis@hotmail.com</h5>
+        <div className="contact__options d-flex flex-column gap-3">
+          <article className="contact__option bg-light p-4 rounded text-center border transition">
+            <MdOutlineEmail className="contact__option-icon fs-3 mb-3 text-primary mb-3" />
+            <h4>Email</h4>
+            <h6>Lavell.francis@hotmail.com</h6>
             <a href="mailto:lavell.francis@hotmail.com" target="_blank">
               Send a message
             </a>
           </article>
-          <article className="contact__option">
-            <BsWhatsapp contact__option-icon />
+          <article className="contact__option bg-light p-4 rounded text-center border transition">
+            <BsWhatsapp className="contact_option mt-3 text-primary mb-3 fs-4" />
             <h4>WhatsApp</h4>
             <h5>07894543667</h5>
             <a
@@ -46,8 +50,12 @@ const Contact = () => {
             </a>
           </article>
         </div>
-
-        <form ref={form} onSubmit={sendEmail} className="">
+        {/*END OF CONTACT OPTIONS */}
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="d-flex flex-column gap-3"
+        >
           <input
             className="form-control"
             type="text"
