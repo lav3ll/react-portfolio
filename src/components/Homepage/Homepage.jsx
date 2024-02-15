@@ -1,7 +1,6 @@
 import React from 'react';
 import profileIMG from '../../utils/me.png';
 import About from './About';
-import './Homepage.css';
 import { NavLink } from 'react-router-dom';
 
 const Homepage = () => {
