@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiLogoGithub } from 'react-icons/bi';
 import { AiOutlineLink } from 'react-icons/ai';
+import './Project.css';
 
 const Project = ({
   title,
@@ -42,7 +43,7 @@ const Project = ({
             </div>
           </div>
           <img
-            className='img-fluid'
+            className='img-fluid rounded img-container'
             src={image}
             alt={alt}
             width='300px'
