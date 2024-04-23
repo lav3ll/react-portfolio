@@ -2,12 +2,12 @@
   {
     "id": 1,
     "image": "/portfolio2.png",
-    "title": "Movie Website",
-    "description": "Discover captivating stories and thrilling adventures on our movie website. Explore a diverse collection of films, from gripping dramas to action-packed blockbusters. Immerse yourself in 30-word summaries, trailers, and reviews, and find your next cinematic masterpiece to enjoy from the comfort of your home.",
-    "github": "https://github.com/lav3ll/Movie-Website",
-    "demo": "https://lav3ll-prime-movies.netlify.app/",
-    "language": "Vanilla JS",
-    "alt": "landing page of a movie streaming service"
+    "title": "Stock Savvy",
+    "description": "Empower your stock market decisions with StockSavvy, a comprehensive web application offering essential tools for tracking and analyzing key stock information. Stay informed and make informed investment choices with ease.",
+    "github": "https://github.com/lav3ll/stock-savvy",
+    "demo": "https://stock-savvy.netlify.app/",
+    "language": "React JS",
+    "alt": "landing page of a stocks website"
   },
   {
     "id": 2,
