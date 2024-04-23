@@ -61,7 +61,7 @@ function Header() {
             <li className='nav-item'>
               <a
                 href='../utils/lavell-cv.pdf'
-                download='cv.pdf'
+                download='lavell-cv.pdf'
                 className='nav-link'
                 onClick={toggleNavbar}
               >

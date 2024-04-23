@@ -29,7 +29,7 @@ const Homepage = () => {
                 <a
                   className='btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder'
                   href='../utils/lavell-cv.pdf'
-                  download='cv.pdf'
+                  download='lavell-cv.pdf'
                 >
                   Resume
                 </a>
