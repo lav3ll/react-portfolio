@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import CV from '../../utils/lavell-cv.pdf';
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -59,12 +60,7 @@ function Header() {
               </NavLink>
             </li>
             <li className='nav-item'>
-              <a
-                href='../utils/lavell-cv.pdf'
-                download='lavell-cv.pdf'
-                className='nav-link'
-                onClick={toggleNavbar}
-              >
+              <a href={CV} download className='nav-link' onClick={toggleNavbar}>
                 Resume
               </a>
             </li>
