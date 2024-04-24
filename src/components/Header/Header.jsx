@@ -12,7 +12,7 @@ function Header() {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-white py-3'>
       <div className='container px-5'>
-        <a className='navbar-brand' href='index.html'>
+        <a className='navbar-brand' href='/'>
           <span className='fw-bolder text-primary'>Lavell Francis</span>
         </a>
         <button
