@@ -14,9 +14,9 @@
     "image": "/portfolio1.png",
     "title": "Manga Website",
     "description": "Embark on a journey through our manga website, where vibrant worlds and compelling characters await. Discover new series, immerse yourself in the art of storytelling, and explore captivating narratives.",
-    "github": "https://github.com/lav3ll/Manga-Website",
-    "demo": "https://elite-scans.netlify.app/",
-    "language": "Vanilla JS",
+    "github": "https://github.com/lav3ll/bootstrap-manga-website",
+    "demo": "https://elitescans.netlify.app/",
+    "language": "React JS",
     "alt": "image of a comic book reading website"
   },
   {
