@@ -23,9 +23,9 @@ const Project = ({
               src={image}
               alt={alt}
             />
-            <p>{description}</p>
+            <p className='project-description'>{description}</p>
             <p className='fw-semibold text-gradient'>Language: {language}</p>
-            <div className='d-flex'>
+            <div className='d-flex project-links'>
               <span className='text-gradient'>Github </span>
               <a
                 className='text-gradient me-3 ps-1'
