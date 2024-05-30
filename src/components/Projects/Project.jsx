@@ -12,13 +12,17 @@ const Project = ({
   description,
   alt,
 }) => {
-  console.log(image);
   return (
     <div className='card overflow-hidden shadow rounded-4 border-0 mb-5 pe-4'>
       <div className='card-body p-0'>
-        <div className='d-flex align-items-center'>
-          <div className='p-5'>
+        <div className='project-container'>
+          <div className='project-padding'>
             <h2 className='fw-bolder text-primary'>{title}</h2>
+            <img
+              className='img-fluid rounded img-container'
+              src={image}
+              alt={alt}
+            />
             <p>{description}</p>
             <p className='fw-semibold text-gradient'>Language: {language}</p>
             <div className='d-flex'>
@@ -42,13 +46,6 @@ const Project = ({
               </a>
             </div>
           </div>
-          <img
-            className='img-fluid rounded img-container'
-            src={image}
-            alt={alt}
-            width='300px'
-            height='400px'
-          />
         </div>
       </div>
     </div>
